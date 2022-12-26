@@ -25,11 +25,25 @@ while True:
         
         if olcekTuru == "1":
             input("Çizgili Olcek")
-            pass
+            os.system(system)
+            olcek = int(input("Ölceğinizi giriniz:"))
+            if olcek >= 100000:
+                pass
+            elif olcek < 100000:
+                olcekCizgiHata()
+                continue 
+            olcekCizgi()
+            print(olcek)
+            continue
         
         elif olcekTuru == "2":
             input("Kesirli olcek")
-            pass
+            os.system(system)
+            haritaUzunluk = 1
+            gercekUzunluk = int(input("Gerçek uzunluğunuzu giriniz:"))
+            olcek = gercekUzunluk * 100000
+            print(olcek)
+            continue
         
         else:
             os.system(system)
