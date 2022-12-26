@@ -31,9 +31,8 @@ def olcekCizgiHata():
     print("HATA! Lütfen 10000'den küçük sayı yazmayınız")
 
 def olcekCizgi():
-    olcek = int(input("Ölceğinizi giriniz:")) 
     olcek = str
-    sonuc = olcek[:5]
+    olcek = olcek[:5]
     olcek = int
     return olcek
 
