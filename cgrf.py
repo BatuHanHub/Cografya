@@ -65,6 +65,8 @@ while True:
         
         olcek = haritaUzunluk / gercekUzunluk
         
+        #çalışıyor EKLEME YAP
+        
         print(olcek)
         break
     
