@@ -43,3 +43,5 @@ def olcekKesir():
     gercekUzunluk = int(input("Gerçek uzunluğunuzu giriniz:")) 
     olcek = gercekUzunluk * 100000
     return olcek
+
+#HARİTA
