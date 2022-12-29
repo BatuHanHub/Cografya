@@ -6,7 +6,7 @@ sistem = os.name
 if sistem == "nt":
     system = "cls"
 
-elif sistem == "poxit":
+elif sistem == "posix":
     system = "clear"
 
 hosgeldiniz()
